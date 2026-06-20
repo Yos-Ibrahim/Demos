@@ -15,7 +15,7 @@ export interface IUserProfileAppWebPartProps {
 }
 
 export default class UserProfileAppWebPart extends BaseClientSideWebPart<IUserProfileAppWebPartProps> {
-
+// comment
  
 
   public render(): void {
