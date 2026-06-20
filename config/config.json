@@ -1,0 +1,55 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/config.2.0.schema.json",
+  "version": "2.0",
+  "bundles": {
+    "registration-form-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/registrationForm/RegistrationFormWebPart.js",
+          "manifest": "./src/webparts/registrationForm/RegistrationFormWebPart.manifest.json"
+        }
+      ]
+    },
+    "share-point-form-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/sharePointForm/SharePointFormWebPart.js",
+          "manifest": "./src/webparts/sharePointForm/SharePointFormWebPart.manifest.json"
+        }
+      ]
+    },
+    "paginatedtable-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/paginatedtable/PaginatedtableWebPart.js",
+          "manifest": "./src/webparts/paginatedtable/PaginatedtableWebPart.manifest.json"
+        }
+      ]
+    },
+    "user-profile-app-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/userProfileApp/UserProfileAppWebPart.js",
+          "manifest": "./src/webparts/userProfileApp/UserProfileAppWebPart.manifest.json"
+        }
+      ]
+    },
+    "react-routes-web-part": {
+      "components": [
+        {
+          "entrypoint": "./lib/webparts/reactRoutes/ReactRoutesWebPart.js",
+          "manifest": "./src/webparts/reactRoutes/ReactRoutesWebPart.manifest.json"
+        }
+      ]
+    }
+  },
+  "externals": {},
+  "localizedResources": {
+    "RegistrationFormWebPartStrings": "lib/webparts/registrationForm/loc/{locale}.js",
+    "SharePointFormWebPartStrings": "lib/webparts/sharePointForm/loc/{locale}.js",
+    "ControlStrings": "node_modules/@pnp/spfx-controls-react/lib/loc/{locale}.js",
+    "PaginatedtableWebPartStrings": "lib/webparts/paginatedtable/loc/{locale}.js",
+    "UserProfileAppWebPartStrings": "lib/webparts/userProfileApp/loc/{locale}.js",
+    "ReactRoutesWebPartStrings": "lib/webparts/reactRoutes/loc/{locale}.js"
+  }
+}

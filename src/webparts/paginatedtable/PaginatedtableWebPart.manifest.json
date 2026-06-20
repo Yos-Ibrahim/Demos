@@ -1,0 +1,26 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx/client-side-web-part-manifest.schema.json",
+  "id": "716f4c55-a2ff-4795-af74-404a0dc2b94a",
+  "alias": "PaginatedtableWebPart",
+  "componentType": "WebPart",
+
+  
+  "version": "*",
+  "manifestVersion": 2,
+
+   
+  "requiresCustomScript": false,
+  "supportedHosts": ["SharePointWebPart", "TeamsPersonalApp", "TeamsTab", "SharePointFullPage"],
+  "supportsThemeVariants": true,
+
+  "preconfiguredEntries": [{
+    "groupId": "5c03119e-3074-46fd-976b-c60198311f70", 
+    "group": { "default": "Advanced" },
+    "title": { "default": "Paginatedtable" },
+    "description": { "default": "Paginatedtable description" },
+    "officeFabricIconFontName": "DataTable",
+    "properties": {
+      "description": "Paginatedtable"
+    }
+  }]
+}

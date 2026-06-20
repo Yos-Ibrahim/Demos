@@ -1,0 +1,40 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/spfx-build/package-solution.schema.json",
+  "solution": {
+    "name": "first-r-eact-app-client-side-solution",
+    "id": "edb1bc5b-3335-43ef-8a4e-52e533081f83",
+    "version": "1.0.0.0",
+    "includeClientSideAssets": true,
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "developer": {
+      "name": "",
+      "websiteUrl": "",
+      "privacyUrl": "",
+      "termsOfUseUrl": "",
+      "mpnId": "Undefined-1.22.2"
+    },
+    "metadata": {
+      "shortDescription": {
+        "default": "FirstREactApp description"
+      },
+      "longDescription": {
+        "default": "FirstREactApp description"
+      },
+      "screenshotPaths": [],
+      "videoUrl": "",
+      "categories": []
+    },
+    "features": [
+      {
+        "title": "first-r-eact-app Feature",
+        "description": "The feature that activates elements of the first-r-eact-app solution.",
+        "id": "b6122d86-965a-41a2-aded-180341dffead",
+        "version": "1.0.0.0"
+      }
+    ]
+  },
+  "paths": {
+    "zippedPackage": "solution/first-r-eact-app.sppkg"
+  }
+}

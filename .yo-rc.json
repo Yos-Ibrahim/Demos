@@ -1,0 +1,19 @@
+{
+  "@microsoft/generator-sharepoint": {
+    "useGulp": false,
+    "plusBeta": false,
+    "isCreatingSolution": false,
+    "nodeVersion": "22.20.0",
+    "sdksVersions": {},
+    "version": "1.22.2",
+    "libraryName": "first-r-eact-app",
+    "libraryId": "edb1bc5b-3335-43ef-8a4e-52e533081f83",
+    "environment": "spo",
+    "packageManager": "npm",
+    "solutionName": "FirstREactApp",
+    "solutionShortDescription": "FirstREactApp description",
+    "skipFeatureDeployment": true,
+    "isDomainIsolated": false,
+    "componentType": "webpart"
+  }
+}
